@@ -32,19 +32,24 @@ class Circle extends GeometricFigure
 }
 public class PolymorphismDemo {
     public static void main(String[] args) {
-        GeometricFigure figure=null;
 
-        Square square=new Square();
-        Rectangle rectangle=new Rectangle();
-        Circle circle=new Circle();
+        new Circle().area();
 
-        figure=square;
-        figure.area();
-
-        figure=rectangle;
-        figure.area();
-
-        figure=circle;
-        figure.area();
+        Circle o=new Circle();
+        o.area();
+//        GeometricFigure figure=null;
+//
+//        Square square=new Square();
+//        Rectangle rectangle=new Rectangle();
+//        Circle circle=new Circle();
+//
+//        figure=square;
+//        figure.area();
+//
+//        figure=rectangle;
+//        figure.area();
+//
+//        figure=circle;
+//        figure.area();
     }
 }
