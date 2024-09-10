@@ -25,7 +25,11 @@ public class XPathDemo {
      //   relativeXPathByTagNameWithAttributeName();
      //   relativeXPathByTagNameWithAttributeName_01();
      //   relativeXPathByTagNameWithAttributeName_02();
-        relativeXPathByTagNameWithAttributeName_03();
+     //   relativeXPathByTagNameWithAttributeName_03();
+     //   relativeXPathByTagNameWithAttributeName_04();
+    //    relativeXPathByPartialMatchingOfAttributeValue();
+     //   relativeXPathByTextContent();
+        relativeXPathByPartialMatchingOfTextContent();
     }
 
     private static void launchBrowser()
@@ -192,5 +196,61 @@ public class XPathDemo {
         }
     }
 
+    private static void relativeXPathByTagNameWithAttributeName_04()
+    {
+        // based on ends-with identify the element
+        List<WebElement> lists=oBrowser.findElements(By.xpath("//a[@href]"));
+        for(int i=0;i<lists.size();i++)
+        {
+            WebElement link=lists.get(i);
+            String linkname=link.getText();
+            if(link.getText().endsWith("Apache"))
+            {
+                link.click();
+                break;
+            }
+        }
+    }
 
+    /**
+     * case 10: identify Element based in partial MAtching of Attribute value
+     * syntax:
+     *    starts-with(@attributeName,'attributeValue')
+     *    ends-with(@attributeName,'attributeValue')
+     *    contains(@attributeName,'attributeValue')
+     *    syntax: //<tagName>[starts-with(@attributeName,'attributeValue')]
+     *    syntax: //<tagName>[ends-with(@attributeName,'attributeValue')]
+     *    syntax: //<tagName>[contains(@attributeName,'attributeValue')]
+     */
+    private static void relativeXPathByPartialMatchingOfAttributeValue()
+    {
+    //    oBrowser.findElement(By.xpath("//input[starts-with(@id,'btn1')]")).click();
+        oBrowser.findElement(By.xpath("//input[contains(@id,'submit1')]")).click();
+    }
+
+    /**
+     * case 11: identify Element based on Text Content
+     *    syntax: //<tagName>[text()='content']
+     */
+    private static void relativeXPathByTextContent()
+    {
+        oBrowser.findElement(By.xpath("//a[text()='S G Software Testing']")).click();
+    }
+
+    /**
+     * case 12: identify Element based in partial MAtching of Text Content
+     * syntax:
+     *    starts-with(text(),'content')
+     *    ends-with(text(),'content')
+     *    contains(text(),'content')
+     *    syntax: //<tagName>[starts-with(text(),'content')]
+     *    syntax: //<tagName>[ends-with(text(),'content')]
+     *    syntax: //<tagName>[contains(text(),'content')]
+     */
+    private static void relativeXPathByPartialMatchingOfTextContent()
+    {
+       oBrowser.findElement(By.xpath("//a[contains(text(),'Software')]")).click();
+    }
 }
+
+
