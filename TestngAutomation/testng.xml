@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/GitRepository5/CurrentWorkSpace/ExampleJune21st2024Repository/TestngAutomation/src/com/sgtest/users/Users.java">
+        <classes>
+            <class name="com.sgtest.users.Users"></class>
+            <class name="com.sgtest.products.Products"></class>
+        </classes>
+    </test>
+</suite>
