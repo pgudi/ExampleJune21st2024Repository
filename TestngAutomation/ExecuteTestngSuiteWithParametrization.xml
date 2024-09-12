@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite">
+    <test name="Users">
+        <parameter name="user" value="demoUser12345"></parameter>
+        <classes>
+            <class name="com.sgtest.parameters.Users"></class>
+        </classes>
+    </test>
+</suite>
