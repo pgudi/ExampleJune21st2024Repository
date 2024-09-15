@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Library/auto-service-annotations-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/byte-buddy-1.15.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/byte-buddy-1.15.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/checker-qual-3.43.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/commons-exec-1.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/error_prone_annotations-2.28.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/failsafe-3.3.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/failureaccess-1.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/guava-33.3.0-jre.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/j2objc-annotations-3.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/jspecify-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/jsr305-3.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-api-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-api-incubator-1.41.0-alpha.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-context-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-exporter-logging-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-common-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-extension-autoconfigure-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-logs-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-metrics-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-trace-1.41.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-semconv-1.25.0-alpha.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-api-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-chrome-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-chromium-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v85-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v126-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v127-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v128-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-edge-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-firefox-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-http-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-ie-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-java-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-json-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-manager-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-os-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-remote-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-safari-driver-4.24.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-support-4.24.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/Library/auto-service-annotations-1.1.1-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/byte-buddy-1.15.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/checker-qual-3.43.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/commons-exec-1.4.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/error_prone_annotations-2.28.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/failsafe-3.3.2-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/failureaccess-1.0.2-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/guava-33.3.0-jre-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/j2objc-annotations-3.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/jspecify-1.0.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/jsr305-3.0.2-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-api-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-api-incubator-1.41.0-alpha-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-context-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-exporter-logging-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-common-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-extension-autoconfigure-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-extension-autoconfigure-spi-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-logs-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-metrics-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-sdk-trace-1.41.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/opentelemetry-semconv-1.25.0-alpha-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-api-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-chrome-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-chromium-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v85-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v126-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v127-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-devtools-v128-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-edge-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-firefox-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-http-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-ie-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-json-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-manager-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-os-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-remote-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-safari-driver-4.24.0-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/Library/selenium-support-4.24.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
