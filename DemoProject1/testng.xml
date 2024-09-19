@@ -3,7 +3,9 @@
 <suite name="All Test Suite">
     <test name="testcases">
         <classes>
-            <class name="org.example.tests.Testcases" ></class>
+            <class name="org.example.tests.Testcases" >
+
+            </class>
         </classes>
     </test>
 </suite>
