@@ -25,26 +25,34 @@ public class RunnerScript {
         {
             fin=new FileInputStream("./testdata/data_Runner.xlsx");
             wb=new XSSFWorkbook(fin);
-            sh = wb.getSheet("Sheet1");
-            int rc=sh.getPhysicalNumberOfRows();
-            for(int r=1;r<rc;r++)
+
+            int shcount=wb.getNumberOfSheets();
+            for(int s=0;s<shcount;s++)
             {
-                row=sh.getRow(r);
+                String sheetName=wb.getSheetName(s);
+                sh = wb.getSheet(sheetName);
+                System.out.println("The Execution has Started ##############     "+sheetName+"     ###################");
+                int rc=sh.getPhysicalNumberOfRows();
+                for(int r=1;r<rc;r++)
+                {
+                    row=sh.getRow(r);
 
-                cell=row.getCell(0);
-                String pkgclassname=cell.getStringCellValue();
+                    cell=row.getCell(0);
+                    String pkgclassname=cell.getStringCellValue();
 
-                cell=row.getCell(1);
-                String methodname=cell.getStringCellValue();
+                    cell=row.getCell(1);
+                    String methodname=cell.getStringCellValue();
 
-                System.out.println(pkgclassname+ " ==  "+methodname);
-                //Create object dynamically
-                Class clsObject=Class.forName(pkgclassname);
-                Object obj=clsObject.getConstructor().newInstance();
+                    System.out.println(pkgclassname+ " ==  "+methodname);
+                    //Create object dynamically
+                    Class clsObject=Class.forName(pkgclassname);
+                    Object obj=clsObject.getConstructor().newInstance();
 
-                Method method=obj.getClass().getMethod(methodname);
-                method.invoke(obj);
+                    Method method=obj.getClass().getMethod(methodname);
+                    method.invoke(obj);
+                }
             }
+
         }catch(Exception e)
         {
             e.printStackTrace();
