@@ -1,0 +1,2 @@
+Selenium is an Automation Tool, Used to Automate UI components.
+Selenium supports PAge Object Model to write TestScripts.
