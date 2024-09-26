@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Unit Testcases">
+        <classes>
+            <class name="org.example.calculator.tests.AdditionTestcases"></class>
+            <class name="org.example.calculator.tests.DivisionTestcases"></class>
+            <class name="org.example.calculator.tests.MultiplicationTestcases"></class>
+            <class name="org.example.calculator.tests.SubstractionTestcases"></class>
+        </classes>
+    </test>
+</suite>
