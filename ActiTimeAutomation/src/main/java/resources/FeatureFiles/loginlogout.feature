@@ -2,6 +2,8 @@
 # Author:
 # Spring Name:
 # Developer Name:
+
+@Execute
 Feature: Verify Login and Logout functionality
 Scenario: Verify Login functionality
 Given I launch chrome browser
@@ -12,7 +14,7 @@ And I click on login in button
 Then I find the home page
 And I minimize flyout window
 
-Scenario: Verify Logout functionality
+Scenario: Verify logout functionality
 Given I find the home page
 When I click on logout link
 Then I find the login page
