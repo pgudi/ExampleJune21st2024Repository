@@ -2,7 +2,7 @@
 # Author:
 # Spring Name:
 # Developer Name:
-
+@Execute
 Feature: Verify Login and Logout functionality
 Scenario: Verify Login functionality
 Given I launch chrome browser
