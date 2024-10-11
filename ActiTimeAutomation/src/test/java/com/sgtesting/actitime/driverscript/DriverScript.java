@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/java/resources/FeatureFiles",
+        features = "src/test/resources/FeatureFiles",
         glue = "com.sgtesting.actitime.stepdefinitions",
         plugin = {"pretty",
                 "html:Reports/cucumber-report.html",
